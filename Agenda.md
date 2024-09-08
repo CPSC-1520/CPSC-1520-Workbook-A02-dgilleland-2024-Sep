@@ -4,14 +4,20 @@
 
 > These are my notes on what I plan to teach in each [**upcoming class**](#mar-18). For the timeline of where we are today, see [the current schedule](./ReadMe.md#schedule).
 >
-> ##### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
+> ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
 > > My philosophy of teaching, taken from [the source](https://www.bible.com/bible/111/1TH.5.14.NIV)
 
 
 ----
 
-## Jan 8 (W01)
+## Sep-Dec 2024 Schedule
+
+*TBD*
+
+## TENTATIVE SCHEDULE
+
+### Jan 8 (W01)
 
 - Course Introduction
 - GitHub Account Setup
@@ -21,7 +27,7 @@
   - [001](./src/001-StartHere/ReadMe.md)
   - [002](./src/002/ReadMe.md)
 
-## Jan 10
+### Jan 10
 
 - [003](./src/003/ReadMe.md)
 - Characteristics of JavaScript
@@ -35,7 +41,7 @@
   - [ ] Complete the 003/practice
   - [ ] Start the About and GitDoc assignments on Teams
 
-## Jan 12
+### Jan 12
 
 - [ ] Today's Lesson(s)
   - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
@@ -46,7 +52,7 @@
 
 ----
 
-## Jan 15 (W02)
+### Jan 15 (W02)
 
 - [ ] Practice Assignments
   - About Me
@@ -55,7 +61,7 @@
 - [ ] In-Class #1 (**for marks**)
 - *TBA*
 
-## Jan 17
+### Jan 17
 
 - [x] Discussion about the importance of Academic **Honesty** and the dangers of Academic Dishonesty
 - [x] Today's Lesson(s)
@@ -64,7 +70,7 @@
   - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
     - Review [its LOGs](./src/007/LOGs.md)
 
-## Jan 19
+### Jan 19
 
 > *Complete any topics from Sep 19 that were not covered...*
 
@@ -93,16 +99,16 @@
 
 ----
 
-## Jan 22 (W03)
+### Jan 22 (W03)
 
 - [x] Here's another learning resource: https://javascript.info/
 - [ ] Release Lab 2
 
-## Jan 24
+### Jan 24
 
 - [ ] *Work Period*
 
-## Jan 26
+### Jan 26
 
 - [ ] Today's Lesson
   - [**012**](./src/012/ReadMe.md) - Making Decisions
@@ -138,22 +144,22 @@
 
 ----
 
-## Jan 29 (W04)
+### Jan 29 (W04)
 
 - [ ] In-Class Lab 3
 
-## Jan 31
+### Jan 31
 
 - [ ] [Shipping Calculator](./src/013/shipping-calculator/Readme.md)
 
-## Feb 2
+### Feb 2
 
 - [ ] In-Class Lab 4
   - *Intro to the In-Class Lab 4*
 
 ----
 
-## Feb 5 (W05)
+### Feb 5 (W05)
 
 - [ ] Solution to Lab 4
 - [ ] [015](./src/015/ReadMe.md) Intro to Loops
@@ -163,7 +169,7 @@
     ```
 
 
-## Feb 7
+### Feb 7
 
 - [ ] [016](./src/016/ReadMe.md) Intro to Arrays
 
@@ -174,7 +180,7 @@
 ----
 
 
-## Feb 26
+### Feb 26
 
 - [ ] [018](./src/018/ReadMe.md) Intro to JavaScript Objects (in their various forms)
   - [ ] Object Literals
@@ -183,13 +189,13 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/018 ./dan/018
     ```
 
-## Feb 28
+### Feb 28
 
 - [ ] In-Class 5
 
 ----
 
-## Mar 1
+### Mar 1
 
 - [ ] More on JavaScript objects (primarily in the Node terminal)
   - [ ] [Object Literals and `get`/`set` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters)
@@ -201,7 +207,7 @@
 
 ----
 
-## Mar 5
+### Mar 5
 
 ```bash
 pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./src/019
@@ -218,11 +224,11 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
   - [ ] Why we need a Web Server for `fetch`
 
 
-## Mar 6
+### Mar 6
 
 - [ ] Continue exploring Fetch API, but within a Node project
 
-## Mar 8
+### Mar 8
 
 - [ ] Another Fetch API example consuming data from RandomUser.me; this ad-hoc example is found under the [sandbox/UserProfile/](./sandbox/UserProfile/ReadMe.md) folder.
   - [ ] Consume JSON data from [RandomUser.md](https://randomuser.me)
@@ -231,24 +237,24 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ----
 
-## Mar 11
+### Mar 11
 
 - [ ] Continue the [User Profile](./sandbox/UserProfile/ReadMe.md) example. In this example, we'll attempt to
   - [ ] Integrate additional Node packages (in this case, Leaflet.js, to render a map)
   - [ ] **DOM API** to create elements and text nodes and to change properties of created elements; these dynamic elements are then added to the DOM so that they are rendered in the page
 
-## Mar 13
+### Mar 13
 
 - [ ] Continue the [User Profile](./sandbox/UserProfile/ReadMe.md) example. In this example, we'll attempt to
   - [ ] Short demo of using `data-*` attributes on DOM elements as a means of retaining metadata for use in your JavaScript code.
 
-## Mar 15
+### Mar 15
 
 - [ ] Free lab period
 
 ----
 
-## Mar 18
+### Mar 18
 
 ```bash
 pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/024 ./src/024
@@ -266,29 +272,29 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/025 ./src/025
 ```
 
-## Mar 20
+### Mar 20
 
 - [ ] **Review Class: Open Questions**
   - [ ] This class will be dedicated to answering questions about JavaScript material covered so far in the course.
 
-## Mar 22
+### Mar 22
 
 - [ ] **In-Class 6** - Fetch API
 - [ ] Assessment 2 (Take-Home Lab) released (due on **Mar 29**)
 
 ----
 
-## Mar 25
+### Mar 25
 
 - [ ] A bit more on Node-based project
 - [ ] Lab time to work on Assessment 2
 
-## Mar 27
+### Mar 27
 
 - [ ] A bit more on Node-based project
 - [ ] Lab time to work on Assessment 2
 
-## Mar 29
+### Mar 29
 
 - [ ] **Quiz 4** on Moodle closes
 - [ ] Lab time to work on Assessment 2
@@ -296,17 +302,17 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ----
 
-## Apr 1
+### Apr 1
 
 - [ ] Classes in JavaScript
 
 
-## Apr 3
+### Apr 3
 
 - [ ] Node Project - `parcel`
 
 
-## Apr 5
+### Apr 5
 
 - [ ] **In-Class 7** - Node Projects
 - [ ] *TBD*
@@ -314,58 +320,58 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ----
 
-## Apr 8
+### Apr 8
 
 - [ ] JavaScript Classes and Prototypes
 - [ ] Vitest
 
 
-## Apr 10
+### Apr 10
 
 - [ ] *TBD*
 
 
-## Apr 12
+### Apr 12
 
 - [ ] **Quiz 5** on Moodle closes
 - [ ] *TBD*
 
 ----
 
-## Apr 15
+### Apr 15
 
 - [ ] *TBD*
 
 
-## Apr 17
+### Apr 17
 
 - [ ] *TBD*
 
 
-## Apr 19
+### Apr 19
 
 - [ ] *TBD*
 
 
 ----
 
-## Apr 22
+### Apr 22
 
 - [ ] *TBD*
 
 
-## Apr 24
+### Apr 24
 
 - [ ] **In-Class 8** - 
 - [ ] **Assessment 3 Due Today**
 
 
-## Apr 26
+### Apr 26
 
 - [ ] *Final day of classes*
 - [ ] **Quiz 6** on Moodle closes
 
 
 
-## Future
+### Future
 
