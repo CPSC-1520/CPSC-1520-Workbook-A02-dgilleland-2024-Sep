@@ -13,23 +13,23 @@
 
 ## Sep-Dec 2024 Schedule
 
-*TBD*
-
-## TENTATIVE SCHEDULE
-
-### Jan 8 (W01)
+### Sep 4 (W01)
 
 - Course Introduction
 - GitHub Account Setup
 - Software Setup
+
+### Sep 5
+
 - Workbook Setup
   - [000](./src/000/ReadMe.md)
   - [001](./src/001-StartHere/ReadMe.md)
   - [002](./src/002/ReadMe.md)
 
-### Jan 10
+----
 
-- [003](./src/003/ReadMe.md)
+### Sep 9 (W02)
+
 - Characteristics of JavaScript
   - case-sensitive
   - **not** a type-safe language
@@ -37,8 +37,19 @@
   - string literals can be wrapped in double or single quotes
 - The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
 - Node also provides/is a REPL for JavaScript
+- [003](./src/003/ReadMe.md)
 - **Homework:**
   - [ ] Complete the 003/practice
+
+
+----
+
+----
+
+## TENTATIVE SCHEDULE
+
+### Jan 10
+
   - [ ] Start the About and GitDoc assignments on Teams
 
 ### Jan 12
