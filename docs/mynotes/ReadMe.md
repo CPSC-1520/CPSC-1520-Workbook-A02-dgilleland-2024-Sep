@@ -8,6 +8,9 @@ Your first learning adventure should begin with [**Mastering Markdown**](https:/
 
 > *Create an un-ordered list here for your own table of contents, and add links to additional Markdown pages in this folder.*
 
+- This is my [**Journal**](./Journal.md) where I make general notes from each class.
+- Another important file is the [`git` Commands](./git-commands.md).
+
 ----
 
 <!-- Custom Styling - Modify for Fun and Learning - No Warranties Implied -->
