@@ -42,6 +42,15 @@
   - [ ] Complete the 003/practice
 
 
+### Sep 11
+
+- [ ] Today's Lesson(s)
+  - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+    - HTML & Emmet in VS Code
+    - Link a JavaScript file
+  - Begin [005](./src/005/ReadMe.md)
+    - Review [its LOGs](./src/005/LOGs.md)
+
 ----
 
 ----
@@ -51,15 +60,6 @@
 ### Jan 10
 
   - [ ] Start the About and GitDoc assignments on Teams
-
-### Jan 12
-
-- [ ] Today's Lesson(s)
-  - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
-    - HTML & Emmet in VS Code
-    - Link a JavaScript file
-  - Begin [005](./src/005/ReadMe.md)
-    - Review [its LOGs](./src/005/LOGs.md)
 
 ----
 
