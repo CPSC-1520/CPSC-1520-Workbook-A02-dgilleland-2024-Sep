@@ -44,6 +44,7 @@
 
 ### Sep 11
 
+- [ ] Practice Lab (See Brightspace)
 - [ ] Today's Lesson(s)
   - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
     - HTML & Emmet in VS Code
