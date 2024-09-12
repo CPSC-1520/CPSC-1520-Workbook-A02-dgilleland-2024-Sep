@@ -8,3 +8,14 @@
 
 	Use the skills you have learned up to this point.
 */
+let disclosingElements = document.querySelectorAll('.disclosing-party');
+console.log(disclosingElements);
+
+let disclosingPartyName = prompt('Enter a name for the disclosing party.');
+console.log(disclosingPartyName);
+
+// Gutsy code here - I'm presuming there are two elements from the .querySelectorAll
+disclosingElements[0].innerText = disclosingPartyName;
+disclosingElements[1].innerText = disclosingPartyName;
+
+
