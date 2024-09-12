@@ -52,6 +52,16 @@
   - Begin [005](./src/005/ReadMe.md)
     - Review [its LOGs](./src/005/LOGs.md)
 
+## Sep 12
+
+- [ ] Lab 1 released/due **today**
+- [ ] Today's Lesson(s)
+  - Notice the `LOGs.md` files under each lesson - pay attention to these
+  - Quick review on yesterday's code: What are *keywords* and what are *not* keywords.
+  - What are *functions* in JavaScript?
+  - [006](./src/006/ReadMe.md)
+  - [007](./src/007/ReadMe.md)
+
 ----
 
 ----
