@@ -39,28 +39,37 @@
 - Node also provides/is a REPL for JavaScript
 - [003](./src/003/ReadMe.md)
 - **Homework:**
-  - [ ] Complete the 003/practice
+  - [x] Complete the 003/practice
 
 
 ### Sep 11
 
-- [ ] Practice Lab (See Brightspace)
-- [ ] Today's Lesson(s)
+- [x] Practice Lab (See Brightspace)
+- [x] Today's Lesson(s)
   - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
     - HTML & Emmet in VS Code
     - Link a JavaScript file
   - Begin [005](./src/005/ReadMe.md)
     - Review [its LOGs](./src/005/LOGs.md)
 
-## Sep 12
+### Sep 12
 
-- [ ] Lab 1 released/due **today**
-- [ ] Today's Lesson(s)
+- [x] Lab 1 released/due **today**
+- [x] Today's Lesson(s)
   - Notice the `LOGs.md` files under each lesson - pay attention to these
   - Quick review on yesterday's code: What are *keywords* and what are *not* keywords.
   - What are *functions* in JavaScript?
-  - [006](./src/006/ReadMe.md)
-  - [007](./src/007/ReadMe.md)
+  - [006](./src/006/ReadMe.md) intro
+
+----
+
+### Sep 16
+
+- [ ] Today's Lesson(s)
+  - [**006**](./src/006/ReadMe.md) (cont.) - Intro to Functions in JavaScript
+    - Review [its LOGs](./src/006/LOGs.md)
+  - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
+    - Review [its LOGs](./src/007/LOGs.md)
 
 ----
 
@@ -86,11 +95,6 @@
 ### Jan 17
 
 - [x] Discussion about the importance of Academic **Honesty** and the dangers of Academic Dishonesty
-- [x] Today's Lesson(s)
-  - [**006**](./src/006/ReadMe.md) - Intro to Functions in JavaScript
-    - Review [its LOGs](./src/006/LOGs.md)
-  - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
-    - Review [its LOGs](./src/007/LOGs.md)
 
 ### Jan 19
 
