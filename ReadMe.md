@@ -4,8 +4,9 @@
 
 ## Schedule
 
-> The following schedule is incomplete and **subject to change**. Consult the course outline for the mark distribution. See the [Agenda](./Agenda.md) for details on upcoming and completed topics.
+> Consult the course outline for the mark distribution and scheduled evaluations. See the [Agenda](./Agenda.md) for details on upcoming and completed topics.
 
+<!-- 
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
@@ -56,6 +57,7 @@ gantt
     Assessment 3, due Apr 24 : 2024-04-17, 2024-04-24
 
 ```
+-->
 
 ----
 
