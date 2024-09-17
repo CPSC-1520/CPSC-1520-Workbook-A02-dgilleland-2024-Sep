@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-12).
+> These are my notes on what I plan to teach in each [**upcoming class**](#sep-18).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -63,13 +63,22 @@
 
 ----
 
-### Sep 16
+### Sep 16 (W03)
 
+- [ ] Solution to In-Class Lab 1
 - [ ] Today's Lesson(s)
   - [**006**](./src/006/ReadMe.md) (cont.) - Intro to Functions in JavaScript
     - Review [its LOGs](./src/006/LOGs.md)
   - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
     - Review [its LOGs](./src/007/LOGs.md)
+
+### Sep 18
+
+
+### Sep 19
+
+- [ ] Lab 2 released/due **today**
+
 
 ----
 

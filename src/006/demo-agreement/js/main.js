@@ -18,4 +18,8 @@ console.log(disclosingPartyName);
 disclosingElements[0].innerText = disclosingPartyName;
 disclosingElements[1].innerText = disclosingPartyName;
 
+let receivingPartyName = prompt('Enter a name for the receiving party.');
+document.querySelectorAll('.receiving-party')[0].innerText = receivingPartyName;
+document.querySelectorAll('.receiving-party')[1].innerText = receivingPartyName;
+
 
