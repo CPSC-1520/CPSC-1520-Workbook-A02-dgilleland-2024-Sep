@@ -19,5 +19,25 @@ featureImage.addEventListener('click', handleFeatureClick);
 //                             | the name of the DOM event that I am "listening" for
 
 // Let's use the same event handler (handlFeatureClick) for a listener on another element
-const headerEl = document.querySelector('header > h1');
+let headerEl = document.querySelector('header > h1');
 headerEl.addEventListener('click', handleFeatureClick);
+
+// 3. Let's use a double-click on the header element to HIDE the description.
+//    This time, instead of passing a function by name for the event handler,
+//    we'll pass in an anonymous function.
+headerEl.addEventListener('dblclick', function () {
+    var desc = document.querySelector('.feature.description');
+    desc.classList.add('hidden');
+})
+//    An "anonymous function" is a function without a name.
+
+// 4. Let's listen for the mouseover event on the image and log the mouse position to the console
+featureImage.addEventListener('mouseover', function(event) {
+    console.log('{mouseover} mouse position:', event.clientX, event.clientY);
+    console.log(event); // so we can see the object/event details behind our function getting called
+});
+
+// 5. Let's listen for the mousemove event on the image and log the mouse position to the console
+featureImage.addEventListener('mousemove', function(event) {
+    console.log('{mousemove} mouse position:', event.clientX, event.clientY);
+})
