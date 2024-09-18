@@ -74,40 +74,13 @@
 
 ### Sep 18
 
+> Take some time looking over the housekeeping tasks before beginning the lesson on Form Input and Handling Events
 
-### Sep 19
+- [ ] Housekeeping Tasks:
+  - [ ] Version Control: Updating Your Workbook (commit & push)
+  - [ ] Filling the Gaps: Self-study is the only way to fill in the gaps between what you do and don't know about HTML.
 
-- [ ] Lab 2 released/due **today**
-
-
-----
-
-----
-
-## TENTATIVE SCHEDULE
-
-### Jan 10
-
-  - [ ] Start the About and GitDoc assignments on Teams
-
-----
-
-### Jan 15 (W02)
-
-- [ ] Practice Assignments
-  - About Me
-  - GitDoc Usage
-  - GitDoc Typing Profile
-- [ ] In-Class #1 (**for marks**)
-- *TBA*
-
-### Jan 17
-
-- [x] Discussion about the importance of Academic **Honesty** and the dangers of Academic Dishonesty
-
-### Jan 19
-
-> *Complete any topics from Sep 19 that were not covered...*
+![HTML Iceberg](./docs/images/html-iceberg.jpg)
 
 - [ ] Today's Lesson(s)
   - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
@@ -120,15 +93,26 @@
       - Demo an anonymous handler for an event listener
 - [ ] **Homework:** Review the [Learn by Play](./src/005/ReadMe.md#learn-by-play) from [005](./src/005/ReadMe.md).
 
-> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the root of your repository:
+> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
 >
 > ```bash
-> pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/008/demo-events ./src/008/demo-events
+> pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/src/008/demo-events ./src/008/demo-events
 > ```
 >
 > ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `pnpm tlx tiged` command after it has finished downloading the demo folder.*
 
+### Sep 19
+
+- [ ] Lab 2 released/due **today**
+- [ ] Today's Lesson(s)
+  - Continue [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+
+
 ----
+
+----
+
+## TENTATIVE SCHEDULE
 
 ![Here be dragons](./docs/images/here-be-dragons.png)
 
