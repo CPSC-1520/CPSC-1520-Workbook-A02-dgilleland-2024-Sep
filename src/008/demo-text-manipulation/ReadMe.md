@@ -28,3 +28,6 @@ A number of buttons and input fields have been placed on this page to allow the 
 
 ![Manipulating Text](./images/ManipulatingText.png)
 
+### Pratice
+
+Expand on the web page by adding buttons to the HTML to demonstrate the effects of calling functions such as `.bold()`, `.italics()`, `.link('https://developer.mozilla.org')`, `.small()`, `.sub()` and `.sup()`. Further explore these string methods by adding a `<div id="transformedHtml">` beneath the `<code>` block and changing its content using the `.innerHTML` property. 
