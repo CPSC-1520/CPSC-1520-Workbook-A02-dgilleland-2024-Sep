@@ -11,3 +11,18 @@ const presetPaddingLength = function() {
 presetPaddingLength();
 
 // And now for the lesson....
+document.getElementById('transformToUpperCase').addEventListener('click', function() {
+    let newValue = userInput.value.toUpperCase();
+    //             \  string     /
+    output.innerText = newValue;
+});
+
+// TODO: 1) Write the code to transform the user's input to lower case and display it
+//       STUDENT_CODE_HERE
+
+document.querySelector('#transformPadEnd').addEventListener('click', function() {
+    // TODO: 2) Modify the code below to use the appropriate user input for padding.
+    let currentValue = 'bob';// userInput.value;
+    let newValue = currentValue.padEnd(10, '^');
+    output.innerText = newValue;
+});
