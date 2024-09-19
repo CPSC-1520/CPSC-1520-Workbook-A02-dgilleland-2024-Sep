@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-18).
+> These are my notes on what I plan to teach in each [**upcoming class**](#sep-19).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -106,6 +106,11 @@
 - [ ] Lab 2 released/due **today**
 - [ ] Today's Lesson(s)
   - Continue [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+  - Explore the [*Text Manipulation*](./src/008/demo-text-manipulation/ReadMe.md) demo
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/src/008/demo-text-manipulation ./src/008/demo-text-manipulation
+    ```
 
 
 ----
