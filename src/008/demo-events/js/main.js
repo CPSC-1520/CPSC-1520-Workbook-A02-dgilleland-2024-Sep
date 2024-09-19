@@ -41,3 +41,29 @@ featureImage.addEventListener('mouseover', function(event) {
 featureImage.addEventListener('mousemove', function(event) {
     console.log('{mousemove} mouse position:', event.clientX, event.clientY);
 })
+
+// 6. Let's trigger the showing of a dialog based on user interactions
+let showCount = 0;
+featureImage.addEventListener('mouseout', function (ev) {
+    // alert('Don\'t go!');
+    // Let's replace the alert with a custom modal dialog.
+    if(showCount == 0) {
+        let dialog = document.querySelector('dialog');
+        dialog.showModal();
+        showCount++;
+
+        // Oh, and let's explore the event object a little more...
+        // There is a property on the event object called target that tells us which element the event was fired on.
+        // For this method, we called our parameter "ev" but you can call it whatever you want.
+        ev.target.classList.add('image-blur');
+    }
+});
+
+// 7. Let's listen for the dialog's close event.
+//    Learn more about this close event here:
+//      https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement#events
+let myDialog = document.querySelector('dialog');
+myDialog.addEventListener('close', function () {
+    console.log('dialog closed');
+    featureImage.classList.remove('image-blur');
+});
