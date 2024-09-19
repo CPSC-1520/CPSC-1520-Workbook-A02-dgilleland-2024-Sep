@@ -112,6 +112,14 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/src/008/demo-text-manipulation ./src/008/demo-text-manipulation
     ```
 
+----
+
+### Sep 23 (W04)
+
+- [ ] Today's Lesson
+  - [ ] Continue with 008 and explore form processing
+    - `.preventDefault()`
+    - getting the form's input controls
 
 ----
 
