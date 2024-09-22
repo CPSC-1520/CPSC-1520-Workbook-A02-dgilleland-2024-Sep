@@ -139,6 +139,8 @@
 ### Sep 26
 
 - [ ] Lab 3 released/due **today**
+- [ ] Today's Lesson
+  - [ ] *Complete any parts to this point that are not finished.*
 
 ----
 
