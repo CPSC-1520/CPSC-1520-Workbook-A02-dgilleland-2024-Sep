@@ -131,6 +131,15 @@
   - [ ] [010](./src/010/ReadMe.md) - Debugging
   - [ ] [011](./src/011/ReadMe.md) - Organizing Functions
 
+### Sep 25
+
+- [ ] Today's Lesson
+  - [ ] [012](./src/012/ReadMe.md) If/Else statements
+
+### Sep 26
+
+- [ ] Lab 3 released/due **today**
+
 ----
 
 ----
