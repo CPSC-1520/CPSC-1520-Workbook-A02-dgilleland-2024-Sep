@@ -109,7 +109,7 @@
   - Explore the [*Text Manipulation*](./src/008/demo-text-manipulation/ReadMe.md) demo
 
     ```ps
-    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/src/008/demo-text-manipulation ./src/008/demo-text-manipulation
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/008/demo-text-manipulation ./src/008/demo-text-manipulation
     ```
 
 ----
@@ -120,6 +120,11 @@
   - [ ] Continue with 008 and explore form processing
     - `.preventDefault()`
     - getting the form's input controls
+    - Explore the [*Form Processing*](./src/008/form-processing/ReadMe.md) demo
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/src/008/form-processing ./src/008/form-processing
+    ```
 
 ----
 
