@@ -126,6 +126,11 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/src/008/form-processing ./src/008/form-processing
     ```
 
+- [ ] **Practice:** Work on the following *self-study* lessons:
+  - [ ] [~~009~~ *Original link in lesson is out-of-date*](./src/009/ReadMe.md) - Waiting for the DOM
+  - [ ] [010](./src/010/ReadMe.md) - Debugging
+  - [ ] [011](./src/011/ReadMe.md) - Organizing Functions
+
 ----
 
 ----
