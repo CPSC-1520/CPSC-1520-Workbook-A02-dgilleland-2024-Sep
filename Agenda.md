@@ -123,7 +123,7 @@
     - Explore the [*Form Processing*](./src/008/form-processing/ReadMe.md) demo
 
     ```ps
-    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/src/008/form-processing ./src/008/form-processing
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/008/form-processing ./src/008/form-processing
     ```
 
 - [ ] **Practice:** Work on the following *self-study* lessons:
