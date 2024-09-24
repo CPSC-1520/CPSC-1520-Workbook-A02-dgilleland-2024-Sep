@@ -146,6 +146,10 @@
 
 ### Sep 30 (W05)
 
+- ***No Classes***
+
+### Oct 2
+
 - [ ] Today's Lesson
   - [ ] [013](./src/013/ReadMe.md) Form Validation
 
