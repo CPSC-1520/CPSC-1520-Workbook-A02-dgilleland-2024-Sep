@@ -37,6 +37,7 @@ function thumbnailSizeHandler(evt) {
 
 }
 
+// I hook up each of the "buttons" with the same event handler, with each "button" listening for the 'click' event.
 liSm.addEventListener('click', thumbnailSizeHandler);
 liMd.addEventListener('click', thumbnailSizeHandler);
 liLg.addEventListener('click', thumbnailSizeHandler);
