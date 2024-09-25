@@ -135,17 +135,17 @@
 
 - [ ] Today's Lesson
   - [ ] [012](./src/012/ReadMe.md) If/Else statements
+  - [ ] [013](./src/013/ReadMe.md) Form Validation
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/013 ./src/013
+    ```
 
 ### Sep 26
 
 - [ ] Lab 3 released/due **today**
 - [ ] Today's Lesson
   - [ ] *Complete any parts to this point that are not finished.*
-  - [ ] [013](./src/013/ReadMe.md) Form Validation
-
-    ```ps
-    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/013 ./src/013
-    ```
 
 
 ----
