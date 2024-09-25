@@ -141,6 +141,12 @@
 - [ ] Lab 3 released/due **today**
 - [ ] Today's Lesson
   - [ ] *Complete any parts to this point that are not finished.*
+  - [ ] [013](./src/013/ReadMe.md) Form Validation
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/013 ./src/013
+    ```
+
 
 ----
 
@@ -151,7 +157,6 @@
 ### Oct 2
 
 - [ ] Today's Lesson
-  - [ ] [013](./src/013/ReadMe.md) Form Validation
 
 ----
 
