@@ -72,8 +72,19 @@ document.getElementById('assorted').addEventListener('submit', function(evt) {
         appendFeedback('!! White is not a valid color to use.');
 
     // Determine if the checkboxes for features are all on or all off.
+    const selectedFeatures = 
+        `${valueIn(formElements.feature[0])}${valueIn(formElements.feature[1])}${valueIn(formElements.feature[2])}`;
+    appendFeedback(`The following features were selected: '${selectedFeatures}'`);
+
     // Determine if any of the cameras have been selected/turned on.
 
     // Switch:
     // We'll also apply the bg-color value to the border color of the <code> tag containing our feedback to the user.
 })
+
+const valueIn = function(checkboxElement) {
+    // I'll use a ternary expression
+    return checkboxElement.checked ? `${checkboxElement.value};` : '';
+    //     \__ conditional ______/   \____  value if true ____/    \/
+    //         expression                                           |- value if false
+}
