@@ -43,3 +43,37 @@ document.getElementById('subscribe').addEventListener('submit', function(evt) {
         appendFeedback('You must agree to the terms in order to subscribe');
     }
 })
+
+// Handle the processing of the `assorted` form
+document.getElementById('assorted').addEventListener('submit', function(evt) {
+    /*Validation will always be situation-specific.
+     */
+    evt.preventDefault();
+    clearFeedback('Processing/Validating the Assorted Inputs form.');
+    const formElements = evt.target.elements;
+
+    //  Identify which of the first three inputs were not supplied by the user (date, time, color).
+    let message = 'The following form inputs are missing: ';
+    if(! formElements.date.value) // Using "truthy" evaluation
+        message += 'date ';
+    if(! formElements.time.value)
+        message += 'time ';
+    if(! formElements.color.value)
+        message += 'color ';
+    appendFeedback(message);
+
+    // The selected color cannot be black or white.
+    appendFeedback(`The selected color is ${formElements.color.value}`);
+    const BLACK = '#000000';
+    const WHITE = '#ffffff';
+    if(formElements.color.value === BLACK)
+        appendFeedback('!! Black is not a valid color to use.');
+    if(formElements.color.value.toLowerCase() === WHITE)
+        appendFeedback('!! White is not a valid color to use.');
+
+    // Determine if the checkboxes for features are all on or all off.
+    // Determine if any of the cameras have been selected/turned on.
+
+    // Switch:
+    // We'll also apply the bg-color value to the border color of the <code> tag containing our feedback to the user.
+})
