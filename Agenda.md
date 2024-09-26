@@ -146,6 +146,9 @@
 - [ ] Lab 3 released/due **today**
 - [ ] Today's Lesson
   - [ ] *Complete any parts to this point that are not finished.*
+    - [ ] Default and explicit values for `<input type='checkbox'>` and `<input type='radio'>`
+    - [ ] Radio Button Groups and Checkbox Groups all share the same `name` attribute value
+  - [ ] JavaScript [`switch` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
 
 
 ----
