@@ -30,6 +30,14 @@ The `'assorted'` form contains several sets of controls.
 Validation will always be situation-specific. Examine the user's input to determine the following:
 
 - [ ] Identify which of the first three inputs were not supplied by the user (date, time, color).
-- [ ] If one of the radio buttons for base colors (red, green, blue) is present in the value from the color-picker by 50% or more (i.e. - greater than `#77), indicate that the color is strongly present in the selected color.
+- [ ] The selected color cannot be black or white.
 - [ ] Determine if the checkboxs for features are all on or all off.
 - [ ] Determine if any of the cameras have been selected/turned on.
+
+We'll also apply the `bg-color` value to the border color of the `<code>` tag containing our feedback to the user.
+
+## `switch` Statements
+
+> Details on the [`switch` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) can be found in the MDN docs.
+
+- [ ] If one of the radio buttons for base colors (red, green, blue) is present in the value from the color-picker by 50% or more (i.e. - greater than `#77), indicate that the color is strongly present in the selected color.
