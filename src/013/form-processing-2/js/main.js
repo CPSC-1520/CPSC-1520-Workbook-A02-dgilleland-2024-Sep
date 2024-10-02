@@ -77,9 +77,58 @@ document.getElementById('assorted').addEventListener('submit', function(evt) {
     appendFeedback(`The following features were selected: '${selectedFeatures}'`);
 
     // Determine if any of the cameras have been selected/turned on.
+    // indoorCamera, outdoorCamera, garageCamera are checkboxes
+    let cameraStatus = 'The following cameras are on: ';
+    if(formElements.indoorCamera.checked) cameraStatus += 'Indoor, ';
+    if(formElements.outdoorCamera.checked) cameraStatus += 'Outdoor, ';
+    if(formElements.garageCamera.checked) cameraStatus += 'Garage';
+    if(cameraStatus.endsWith(': ')) {
+        appendFeedback('None of the cameras are on.');
+    } else {
+        appendFeedback(cameraStatus);
+    }
+
+    // We'll also apply the bg-color value to the border color of the <code> tag containing our feedback to the user.
+    // We have to use the control's name as an "index" in our collection of elements
+    let radioButtons = formElements['bg-color'];
+    let bgColor = radioButtons.value;
+    // console.log(radioButtons);
+    // appendFeedback(`The background color selected is ${bgColor}`);
+    let codeElement = document.querySelector('code');
+    codeElement.style.borderColor = bgColor;
+    // I also need to set the borderWidth and borderStyle to get the changes visible.
+    codeElement.style.borderWidth = '2x';
+    codeElement.style.borderStyle = 'solid';
 
     // Switch:
-    // We'll also apply the bg-color value to the border color of the <code> tag containing our feedback to the user.
+    // If one of the radio buttons for base colors (red, green, blue) is present in the value from the color-picker by 50% or more (i.e. - greater than `#77), indicate that the color is strongly present in the selected color.
+    let pickedColor = formElements.color.value;
+    let colorPart;
+    switch(bgColor) {
+        case '#ff0000': // Red
+            colorPart = '#771234'.substring(1,3);
+            //           0123456
+            //            \/
+            //             |- Part of the Hex color value
+            colorPart = pickedColor.substring(1, 3);
+            break;
+        case '#00ff00': // Blue
+            colorPart = pickedColor.substring(3, 5);
+            break;
+        case '#0000ff': // Green
+            colorPart = pickedColor.substring(5); // No end value means go to end of the string
+            break;
+        default:
+            colorPart = '00';
+            break;
+    }
+    let base10Part = parseInt('0x' + colorPart, 16);
+    let midPoint = parseInt('0x77', 16);
+    console.log(base10Part, pickedColor, midPoint);
+    if(base10Part > midPoint)
+        appendFeedback('Base color is strongly present in the picked color.');
+    else
+        appendFeedback('The picked color does not have much of the base color.');
 })
 
 const valueIn = function(checkboxElement) {
