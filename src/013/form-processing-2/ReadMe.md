@@ -12,9 +12,9 @@ The `'subscribe'` form contains three controls - `firstname`, `email` and `terms
 
 Apply the following validations to the user's input, and display appropriate messages in the `id='feedback'` element.
 
-- [ ] `firstname` must be at least 2 characters and cannot have any spaces
-- [ ] `email` must be from an "approved" domain: `@nait.ca`, `@gmail.com` or `@gov.ab.ca`
-- [ ] `terms` must be checked on
+- [x] `firstname` must be at least 2 characters and cannot have any spaces
+- [x] `email` must be from an "approved" domain: `@nait.ca`, `@gmail.com` or `@gov.ab.ca`
+- [x] `terms` must be checked on
 
 ## Assorted Form
 
@@ -29,9 +29,9 @@ The `'assorted'` form contains several sets of controls.
 
 Validation will always be situation-specific. Examine the user's input to determine the following:
 
-- [ ] Identify which of the first three inputs were not supplied by the user (date, time, color).
-- [ ] The selected color cannot be black or white.
-- [ ] Determine if the checkboxs for features are all on or all off.
+- [x] Identify which of the first three inputs were not supplied by the user (date, time, color).
+- [x] The selected color cannot be black or white.
+- [x] Determine if the checkboxs for features are all on or all off.
 - [ ] Determine if any of the cameras have been selected/turned on.
 
 We'll also apply the `bg-color` value to the border color of the `<code>` tag containing our feedback to the user.
