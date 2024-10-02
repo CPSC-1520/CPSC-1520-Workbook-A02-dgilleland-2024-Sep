@@ -172,12 +172,18 @@
 - [ ] In-Class Lab 4 - Forms and Validation
   - *Intro to the In-Class Lab 4*
 - [ ] Announce **Assignment 1** (week-long) assignment released on Oct 4 (see Brightspace)
-- [ ] Today's Lesson - Arrays & Loops
+- [ ] Today's Lesson
+  - [ ] [015](./src/015/ReadMe.md) - Intro to Arrays & Loops
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/015 ./src/015
+    ```
 
 ----
 
 ### Oct 7
 
+- [ ] Today's Lesson
 
 ### Oct 9
 
