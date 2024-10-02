@@ -160,6 +160,33 @@
 - [ ] Today's Lesson - [Form Processing 2](./src/013/form-processing-2/ReadMe.md)
   - [ ] *Complete any parts to this point that are not finished.*
   - [ ] JavaScript [`switch` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
+- [ ] ***Homework***
+  - [ ] **Shipping Calculator** - Practice
+    - Create the code to perform the calculations for the [Shipping Calculator](./shipping-calculator/Readme.md) sample.
+  - [ ] Replicate the demo below in your student workbook. Place it in its own folder under the `~/src/013/` topic folder.
+    - Use decisions in form validation
+      - Use [this sample](https://chat.openai.com/share/7f9ac87e-8778-43b0-b9b8-dc1c4e8fe8a7)
+
+### Oct 3
+
+- [ ] In-Class Lab 4 - Forms and Validation
+  - *Intro to the In-Class Lab 4*
+- [ ] Announce **Assignment 1** (week-long) assignment released on Oct 4 (see Brightspace)
+- [ ] Today's Lesson - Arrays & Loops
+
+----
+
+### Oct 7
+
+
+### Oct 9
+
+### Oct 10
+
+- [ ] In-Class Lab 5 - Arrays and Loops
+  - *Intro to the In-Class Lab 5*
+
+
 
 ----
 
@@ -171,6 +198,7 @@
 
 ----
 
+<!--
 ### Jan 22 (W03)
 
 - [x] Here's another learning resource: https://javascript.info/
@@ -230,6 +258,7 @@
   - *Intro to the In-Class Lab 4*
 
 ----
+-->
 
 ### Feb 5 (W05)
 
