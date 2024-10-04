@@ -179,19 +179,84 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/015 ./src/015
     ```
 
+  - [ ] *Rabbit Trail:* Went off on a journey to explore using functions as parameters/callbacks in other functions
+
 ----
 
 ### Oct 7
 
-- [ ] Today's Lesson
+- [ ] Review Assignment 1 lab specs
+  - [ ] Lab Time
 
-### Oct 9
+### Oct 9 *(Online)*
+
+- [ ] Another Array Demo
+  - [ ] Note the benefits of Array Processing for `.querySelectorAll()` results
+  - [ ] [016](./src/016/ReadMe.md) Intro to Arrays (with a little extra on "keyboard navigation")
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/016 ./src/016
+    ```
+  
+  - [ ] [017](./src/017/ReadMe.md) *Self-study of "Addendum" portion*
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/017 ./src/017
+    ```
+  
 
 ### Oct 10
 
-- [ ] In-Class Lab 5 - Arrays and Loops
-  - *Intro to the In-Class Lab 5*
+- [ ] In-Class Lab 5 - Arrays and Loops (*with addendum instructions*)
+<!--
+  - > *Addendum:*
+    - Modify the “images” array with the image names only ~~(including the path)~~ in the images folder
+    - The instructions for *Step 2: Add To My Images* are a little backwards. Read carefully to get the *actual intent* of the instructions (which is to *not* have duplicates in the rendering of saved images). There is an "unspoken" intent for `renderImageList` to "clear out" the inner HTML of the `savedList` DOM element.
+    - In *Step 3*, `renderImageList` is mistakenly referred to as `renderMyImageList`.
+-->
+  - Lab Time
 
+----
+
+### Oct 14
+
+- [ ] Today's Lesson
+  - [ ] [018](./src/018/ReadMe.md) Intro to JavaScript Objects (in their various forms)
+    - [ ] Object Literals
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/018 ./src/018
+    ```
+  
+
+### Oct 16
+
+- [ ] More on JavaScript objects (primarily in the Node terminal)
+  - [ ] [Object Literals and `get`/`set` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters)
+  - [ ] [Creating Objects using Constructor Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_a_constructor_function)
+  - [ ] **Prototypical Inheritance in JS:** [Adding Properties to Existing Objects through the Prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#inheritance)
+- [ ] **Homework:**
+  - [ ] Read about the [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_this_for_object_references) keyword to understand its relationship to objects in JavaScript
+  - [ ] Read about [comparing objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#comparing_objects) to appreciate how objects in JavaScript are reference types
+
+### Oct 17
+
+- [ ] Today's Lesson
+  - [ ] [019](./src/019/ReadMe.md) Assorted Topics
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/019 ./src/019
+    ```
+  
+    - [ ] JSON and JavaScript Objects
+      - [ ] Explore via the `node` environment in the terminal
+      - [ ] A note on the `fs` module in Node
+    - [ ] Intro to the Fetch API
+      - [ ] Web APIs and JSON responses
+      - [ ] What is the Fetch API?
+    - [ ] A word on [Arrow Functions](./src/019/ReadMe.md#arrow-functions)
+    - [ ] A quick-n-plain Node package using `vite`
+      - [ ] Why we need a Web Server for `fetch`
 
 
 ----
@@ -264,7 +329,6 @@
   - *Intro to the In-Class Lab 4*
 
 ----
--->
 
 ### Feb 5 (W05)
 
@@ -278,7 +342,6 @@
 
 ### Feb 7
 
-- [ ] [016](./src/016/ReadMe.md) Intro to Arrays
 
     ```bash
     pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/016 ./src/016
@@ -288,9 +351,6 @@
 
 
 ### Feb 26
-
-- [ ] [018](./src/018/ReadMe.md) Intro to JavaScript Objects (in their various forms)
-  - [ ] Object Literals
 
     ```bash
     pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/018 ./dan/018
@@ -304,14 +364,6 @@
 
 ### Mar 1
 
-- [ ] More on JavaScript objects (primarily in the Node terminal)
-  - [ ] [Object Literals and `get`/`set` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters)
-  - [ ] [Creating Objects using Constructor Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_a_constructor_function)
-  - [ ] **Prototypical Inheritance in JS:** [Adding Properties to Existing Objects through the Prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#inheritance)
-- [ ] **Homework:**
-  - [ ] Read about the [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_this_for_object_references) keyword to understand its relationship to objects in JavaScript
-  - [ ] Read about [comparing objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#comparing_objects) to appreciate how objects in JavaScript are reference types
-
 ----
 
 ### Mar 5
@@ -320,16 +372,7 @@
 pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./src/019
 ```
 
-- [ ] JSON and JavaScript Objects
-  - [ ] Explore via the `node` environment in the terminal
-  - [ ] A note on the `fs` module in Node
-- [ ] Intro to the Fetch API
-  - [ ] Web APIs and JSON responses
-  - [ ] What is the Fetch API?
-- [ ] A word on [Arrow Functions](./src/019/ReadMe.md#arrow-functions)
-- [ ] A quick-n-plain Node package using `vite`
-  - [ ] Why we need a Web Server for `fetch`
-
+-->
 
 ### Mar 6
 
