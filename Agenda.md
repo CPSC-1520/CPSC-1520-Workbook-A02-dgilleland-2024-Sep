@@ -185,6 +185,8 @@
 
 ### Oct 7
 
+![Oct 7](./docs/images/bth-64.png)
+
 - [ ] Review Assignment 1 lab specs
   - [ ] Lab Time
 
