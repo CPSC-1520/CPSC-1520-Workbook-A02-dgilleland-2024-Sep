@@ -1,3 +1,5 @@
+// Using an immediate function invocation to start the program
+// AND to prevent any global variables from appearing
 (function () {
   'use strict';
 
