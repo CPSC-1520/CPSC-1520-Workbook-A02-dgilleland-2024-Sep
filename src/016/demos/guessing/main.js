@@ -1,6 +1,6 @@
 let selectedWord = 0; // Start with the first word
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const CORRECT = "✓";
+const CORRECT = "✓"; // Windows + . → 👍🛹±
 const WRONG = "X";
 
 let availableLetters = LETTERS; // this is a copy
@@ -14,6 +14,7 @@ const nextWord = function() {
     // TODO: Return the item at the selectedWord index, and also increment the index number.
     let selected = wordList[selectedWord];
     selectedWord++; // Increment my index variable
+    // Prevent myself from going past the end of the NodeList/array
     if(selectedWord >= wordList.length) {
         // Reset to the start
         selectedWord = 0;
