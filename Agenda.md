@@ -222,6 +222,10 @@
 
 ### Oct 14
 
+- ***No Classes***
+
+### Oct 16 *(Online)*
+
 - [ ] Today's Lesson
   - [ ] [018](./src/018/ReadMe.md) Intro to JavaScript Objects (in their various forms)
     - [ ] Object Literals
@@ -229,10 +233,9 @@
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/018 ./src/018
     ```
+
+### Oct 17
   
-
-### Oct 16
-
 - [ ] More on JavaScript objects (primarily in the Node terminal)
   - [ ] [Object Literals and `get`/`set` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters)
   - [ ] [Creating Objects using Constructor Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_a_constructor_function)
@@ -241,7 +244,9 @@
   - [ ] Read about the [`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#using_this_for_object_references) keyword to understand its relationship to objects in JavaScript
   - [ ] Read about [comparing objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#comparing_objects) to appreciate how objects in JavaScript are reference types
 
-### Oct 17
+----
+
+### Oct 21
 
 - [ ] Today's Lesson
   - [ ] [019](./src/019/ReadMe.md) Assorted Topics
