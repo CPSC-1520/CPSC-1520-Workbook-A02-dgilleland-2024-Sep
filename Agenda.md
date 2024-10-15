@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#oct-7).
+> These are my notes on what I plan to teach in each [**upcoming class**](#oct-16-online).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -265,10 +265,121 @@
     - [ ] A quick-n-plain Node package using `vite`
       - [ ] Why we need a Web Server for `fetch`
 
+### Oct 23 *(Online)*
+
+> ***TBD***
+
+### Oct 24
+
+> ***TBD***
 
 ----
 
+### Oct 28
+
+> ***TBD***
+
+### Oct 30 *(Online)*
+
+> ***TBD***
+
+### Oct 31
+
+> ***TBD***
+
 ----
+
+### Nov 4
+
+> ***TBD***
+
+### Nov 6 *(Online)*
+
+> ***TBD***
+
+### Nov 7
+
+- [ ] In-Class Lab 6 - Fetch
+- [ ] Nov 8-15: Assignment 2 - Fetch and Arrays
+
+----
+
+### Nov 11
+
+- [ ] **Lab Time** for Assignment 2
+
+### Nov 13 *(Online)*
+
+- [ ] **Lab Time** for Assignment 2
+
+### Nov 14
+
+- [ ] **Lab Time** for Assignment 2
+
+----
+
+### Nov 18
+
+> ***TBD***
+
+### Nov 20 *(Online)*
+
+> ***TBD***
+
+### Nov 21
+
+- [ ] In-Class Lab 7 - Advanced Array Manipulation
+
+----
+
+### Nov 25
+
+> ***TBD***
+
+### Nov 27 *(Online)*
+
+> ***TBD***
+
+### Nov 28
+
+> ***TBD***
+
+
+----
+
+### Dec 2
+
+> ***TBD***
+
+### Dec 4 *(Online)*
+
+> ***TBD***
+
+### Dec 5
+
+- [ ] Dec 6-13: Assignment 3 - DOM and Fetch
+
+----
+
+### Dec 9
+
+- [ ] **Lab Time** for Assignment 3
+
+### Dec 11 *(Online)*
+
+- [ ] **Lab Time** for Assignment 3
+
+### Dec 12
+
+- [ ] In-Class Lab 8 - Classes, Objects, DOM and Timers
+- [ ] **Lab Time**
+
+----
+
+### Dec 16
+
+> ***TBD***
+
 
 ## TENTATIVE SCHEDULE
 
