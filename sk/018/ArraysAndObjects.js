@@ -79,7 +79,6 @@ cls()
 let temp = 'bob'
 instanceof temp === 'string'
 instanceof temp
-instanceOf temp
 typeof temp
 const isString = function(thing) { typeof temp === 'string'; }
 const isAString = function(thing) { return typeof thing === 'string'; }
