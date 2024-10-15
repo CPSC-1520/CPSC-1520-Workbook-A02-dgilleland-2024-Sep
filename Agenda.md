@@ -249,7 +249,7 @@
 ### Oct 21
 
 - [ ] Today's Lesson
-  - [ ] [019](./src/019/ReadMe.md) Assorted Topics
+  - [ ] [019](./src/019/ReadMe.md) Assorted Topics, including **Node** and *Vite* (at last!)
 
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/019 ./src/019
