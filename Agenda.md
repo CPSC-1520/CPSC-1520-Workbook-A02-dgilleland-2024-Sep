@@ -380,12 +380,17 @@
 
 > ***TBD***
 
-
-## TENTATIVE SCHEDULE
+----
+----
 
 ![Here be dragons](./docs/images/here-be-dragons.png)
 
+## TENTATIVE SCHEDULE
+
+> *The scheduled materials below represent a **previous term** and are noted for your instructor's lesson planning. As items are moved up into the current term's schedule, this list will eventually "disappear".*
+
 ----
+
 
 <!--
 ### Jan 22 (W03)
