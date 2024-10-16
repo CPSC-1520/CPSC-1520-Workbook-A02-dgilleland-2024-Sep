@@ -7,6 +7,7 @@ console.log('Creating objects:\n\t', url);
 const Person = function (name, dateOfBirth) {
     // The this keyword refers to the object itself
     // Here we define the properties/members of the object
+    // (basically, preserving the information passed to my parameters)
     this.name = name;
     this.dob = dateOfBirth;
     this.sayHello = function (someone) {
@@ -20,7 +21,7 @@ const Person = function (name, dateOfBirth) {
         const month = today.getMonth() - dob.getMonth();
         const dayOfMonth = today.getDate() - dob.getDate();
         if (month < 0 || (month === 0 && dayOfMonth < 0)) {
-        age--;
+            age--;
         }
         return age;
     }
