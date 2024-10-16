@@ -1,8 +1,8 @@
 // I can have a variable called $, and that is the
 // name of the jQuery object when using the jQuery library
-const $ = function(evt) {
+const $ = function(selector) {
     // Thanks Fred (remember to give credits)
-    return document.querySelector(evt);
+    return document.querySelector(selector);
 }
 var heading = $('h1');
 console.log(heading);
