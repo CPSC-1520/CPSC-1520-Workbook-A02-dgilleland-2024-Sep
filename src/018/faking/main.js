@@ -1,6 +1,8 @@
+// I am using the modern JavaScript module approach
+// Here I am importing objects/functions from a separate .js file
 import { injectTableData, Vehicle } from './carLot/dataGenerator.js';
 
-const log = console.log;
+const log = console.log; // I'm tired of typing console.log - let's just type log()
 
 // TODO: Disabled until I can figure out how to get the seed working
 //       consistently. Apparently, the seed can be used to get consisten
@@ -46,6 +48,7 @@ document.getElementById('addVehicleform').addEventListener('submit', function(ev
 
     const newCar = new Vehicle(typeInput.value, vinInput.value, licenseInput.value, colorInput.value, mileageInput.value);
     // TODO: Add this into my carLot table
+    //       (This is part of your homework)
     console.table(newCar);
     // Clear all my inputs
     typeInput.value = "";
