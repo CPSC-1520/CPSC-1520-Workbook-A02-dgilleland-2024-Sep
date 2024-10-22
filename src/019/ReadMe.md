@@ -4,11 +4,17 @@
 
 ## Lesson Notes
 
+### Part 1
+
 - [ ] [JSON Intro](./jsonIntroScript.js) - A "walk-with-me" demo in the Node REPL to learn about JSON.
 - [ ] [Bedrock High School](./bedrockHighSchool.json) - A demo of a `.json` file
 - [ ] [Green Arrows](./green-arrows/index.js) - A demo about Arrow Function syntax in JavaScript and using the **Fetch API** (handling the promise with `.then()` fluent function calls). *JS Modules*
 - [ ] [JSON Demo](./json-demo/index.js) - Demo of using `JSON.parse()` and `JSON.stringify()` to help illustrate the differences between JavaScript objects and JSON. Also loads up a `friends.json` file using the **Fetch API** (again, with `.then()` functions, but also with the **`await`** keyword). *JS Modules*
   - [ ] **NOTE** how the Fetch API receives the JSON data *as a string* (the first `T` in `HTTP`) and that we need to *parse* the results.
+- [ ] **Homework** - Open a Note REPL and experiment with the [Random User API](./DemoRandomUserApi.js)
+
+### Part 2
+
 - [ ] [Node Project Basics](./node-plain/package.json) - A sample `package.json` created by initiating a Node project.
   - [ ] Create a folder called `node-practice` and open the terminal in that folder. Then run `pnpm init` and see what happens
 - [ ] [Node Vite](./node-vite/ReadMe.md) - A sample of a Node project using [**Vite**]() as the "engine" for development and building.
