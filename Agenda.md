@@ -267,7 +267,9 @@
 
 ### Oct 23 *(Online)*
 
-> ***TBD***
+- [ ] Today's Lesson
+  - [019](./src/019/ReadMe.md) - Resume after "Green Arrow" sample
+  - :100: Add exploring the Random User API (see [`DemoRandomUserApi.js`](./src/019/DemoRandomUserApi.js))
 
 ### Oct 24
 
