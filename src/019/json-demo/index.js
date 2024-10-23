@@ -1,4 +1,4 @@
-console.log('json-demo');
+console.log('json-demo'); // sanity check
 
 // Let's create a JavaScript object literal
 const person = {
@@ -21,13 +21,20 @@ console.log('Back to a JavaScript object:\n', personObject);
 // Let's load in some JSON data from the server. It's in a file called 'friends.json'
 // We'll use the Fetch API to load it in
 let data = []; // We'll store the data here
-const url = 'friends.json';
-await fetch(url) // Get the data
+const url = 'friends.json'; // the relative path to the file I need from the server
+
+// The Fetch API returns a Promise, which is an asynchronous function
+// Using the await keyword, I can pause the execution of my code until
+// the asynchronous functions are completed.
+await fetch(url) // Get the data from some URL (web server that processes the REQUEST)
     // Convert the data to JSON
-    .then(response => response.json())
+    .then(response => response.json()) // response is a parameter/variable
     // Do something with the data
-    .then(jsonInfo => {
-        data = jsonInfo;
+    .then(jsonInfo => { // jsonInfo is just a parameter name/variable name
+        // I happen to know that the jsonInfo will be an array of objects
+        // (because I peeked at the friends.json file before I wrote this code).
+        // I'm replacing my empty array with the array of data that I just fetched.
+        data = jsonInfo; // I'm storing the data in the array from line 23.
         console.log('Friends data from server', data);
     });
 // In the meantime, let's check out

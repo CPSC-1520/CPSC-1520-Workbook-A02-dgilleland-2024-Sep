@@ -13,5 +13,10 @@
         "firstName": "Anna",
         "lastName": "Lyst",
         "email": "a.lyst@sob.ca"
+    },
+    {
+        "firstName": "Stew",
+        "lastName": "Dent",
+        "email": "sDent@autos.r.us"
     }
 ]
