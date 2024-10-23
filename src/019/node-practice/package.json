@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Dan Gilleland",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
 }
