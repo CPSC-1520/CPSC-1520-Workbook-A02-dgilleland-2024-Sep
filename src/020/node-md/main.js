@@ -1,3 +1,6 @@
+// It's common practice to import any 3rd-party libraries
+// at the top of your script file.
+import markdownit from 'markdown-it'
 console.log('loaded main.js');
 
 /**
@@ -11,6 +14,11 @@ const handleResponse = function(response) {
 
 const handleMarkdown = function(markdownText) {
     console.log(markdownText);
+    const md = markdownit()
+    const result = md.render(markdownText);
+    console.log(result);
+    // Append it to the body of my page
+    document.body.innerHTML += result;
 }
 
 fetch('./content/ReadMe.md')
