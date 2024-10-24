@@ -14,6 +14,14 @@ const handleResponse = function(response) {
 
 const handleMarkdown = function(markdownText) {
     console.log(markdownText);
+    const rawText = `<details>
+        <summary>Markdown</summary>
+        <pre><code>${markdownText}</code></pre>
+    </details>
+    <hr />`;
+    document.body.innerHTML += rawText;
+
+    // Convert Markdown to HTML
     const md = markdownit()
     const result = md.render(markdownText);
     console.log(result);
