@@ -6,4 +6,5 @@
 - Created a node project with `pnpm init`
 - Added vite for development with `pnpm add -D vite`
 - Edited [`package.json`](../package.json) to add a script command: `"dev": "vite",`
+- Added a `main.js`
 
