@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
   }
 }

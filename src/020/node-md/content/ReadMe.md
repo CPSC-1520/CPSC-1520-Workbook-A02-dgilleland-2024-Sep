@@ -8,3 +8,5 @@
 - Edited [`package.json`](../package.json) to add a script command: `"dev": "vite",`
 - Added a `main.js`
 
+I plan on using this library: [Markdown-It](https://github.com/markdown-it/markdown-it). I am adding it as a regular dependency in my node project: `pnpm add markdown-it`.
+
