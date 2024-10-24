@@ -10,3 +10,7 @@
 
 I plan on using this library: [Markdown-It](https://github.com/markdown-it/markdown-it). I am adding it as a regular dependency in my node project: `pnpm add markdown-it`.
 
+> *Emmet for the win!*
+>
+> `nav>ul>li>strong^^ul>li*3>a`
+
