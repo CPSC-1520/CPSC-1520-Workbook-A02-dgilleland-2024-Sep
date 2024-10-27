@@ -273,13 +273,23 @@
 
 ### Oct 24
 
-> ***TBD***
+- [ ] Today's Lesson
+  - [ ] ***Ad-Hoc***
+    - [ ] Bare Metal Vite site with two pages + PicoCSS for styling
+    - [ ] `markdown-it` for converting `*.md` to HTML
+    - [ ] Fetch markdown documents
 
 ----
 
 ### Oct 28
 
-> ***TBD***
+- [ ] Today's Lesson
+  - [ ] Dates, Timers and Intervals
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/024 ./src/024
+    ```
+  
 
 ### Oct 30 *(Online)*
 
@@ -287,22 +297,36 @@
 
 ### Oct 31
 
-> ***TBD***
+- [ ] Today's Lesson
+  - [ ] DOM API
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/025 ./src/025
+    ```
+  
 
 ----
 
 ### Nov 4
 
-> ***TBD***
+- [ ] Today's Lesson
+  - [ ] JavaScript Classes
+<!--
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/026 ./src/026
+    ```
+-->  
 
 ### Nov 6 *(Online)*
 
-> ***TBD***
+> ***Q-and-A*** - Your opportunity to ask questions on items covered to-date *(esp. useful for the upcoming lab 6)*
+
 
 ### Nov 7
 
-- [ ] In-Class Lab 6 - Fetch
-- [ ] Nov 8-15: Assignment 2 - Fetch and Arrays
+- [ ] In-Class Lab 6 - Fetch API <!-- Met Museum -->
+- [ ] Nov 8-15: Assignment 2 - Fetch and Arrays <!-- Top Albums Filtering -->
+- [ ] **Lab Time** | **Q-and-A**
 
 ----
 
@@ -326,11 +350,11 @@
 
 ### Nov 20 *(Online)*
 
-> ***TBD***
+> ***Q-and-A*** - Your opportunity to ask questions on items covered to-date *(esp. useful for the upcoming lab 7)*
 
 ### Nov 21
 
-- [ ] In-Class Lab 7 - Advanced Array Manipulation
+- [ ] In-Class Lab 7 - Node Project, ES Modules and Parcel.js
 
 ----
 
@@ -359,7 +383,7 @@
 
 ### Dec 5
 
-- [ ] Dec 6-13: Assignment 3 - DOM and Fetch
+- [ ] Dec 6-13: Assignment 3 - DOM and Fetch <!-- Album Search & Save (!uses backend project!) -->
 
 ----
 
@@ -369,11 +393,13 @@
 
 ### Dec 11 *(Online)*
 
+> ***Q-and-A*** - Your opportunity to ask questions on items covered to-date *(esp. useful for the upcoming lab 8)*
+
 - [ ] **Lab Time** for Assignment 3
 
 ### Dec 12
 
-- [ ] In-Class Lab 8 - Classes, Objects, DOM and Timers
+- [ ] In-Class Lab 8 - Classes, Objects, DOM and Timers <!-- Race Cars -->
 - [ ] **Lab Time**
 
 ----
