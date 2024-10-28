@@ -30,3 +30,20 @@ document.querySelector('button')
         });
 
 getPassword(); // Run the function that sets this up...
+
+const resetText = () => { document.querySelector('blockquote').innerText = 'Reset the text' }
+
+let resetTimeoutRef = null;
+
+// on another note..
+document.querySelector('blockquote')
+        .addEventListener('input', function(evt) {
+            console.log('changed text');
+            if(resetTimeoutRef) { clearTimeout(resetTimeoutRef) }
+            resetTimeoutRef = setTimeout(() => {
+                // clear things
+                resetText();
+                // cleanup
+                resetTimeoutRef = null;
+            }, 5000)
+        })
