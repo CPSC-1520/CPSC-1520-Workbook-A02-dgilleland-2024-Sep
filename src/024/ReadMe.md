@@ -19,6 +19,7 @@ Learn a bit about the Date object in JavaScript with the [Timely Demo](./demos/T
 > - Made this a node project with `pnpm init` (creates the `package.json` file)
 > - Use the vite library as my development server `pnpm add -D vite` (add in the library)
 > - Modify the `package.json` to include a new script: `"dev": "vite",`
+> - Launch the dev server with `pnpm dev` and then type <kbd>o</kbd> + <kbd>[enter]</kbd>
 
 ----
 

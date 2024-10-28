@@ -1,9 +1,14 @@
+// Utility functions/data
+const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const getDay = (someDate) => dayNames[someDate.getDay()];
+const getShortDay = (someDate) => getDay(someDate).substring(0, 3);
+
 const showDate = function(thisDate) {
     const getDatePortion = function(someDate) {
         if(someDate instanceof Date) {
             // Build a string with just the date portion
             // YYYY-MM-DD
-            let text = `${someDate.getFullYear()}-${someDate.getMonth() + 1}-${someDate.getDate()}`;
+            let text = `${someDate.getFullYear()}-${someDate.getMonth() + 1}-${someDate.getDate()} (${getShortDay(someDate)})`;
             return text;
         } else {
             // Not much I can do
