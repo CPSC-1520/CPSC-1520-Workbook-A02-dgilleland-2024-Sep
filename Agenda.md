@@ -303,7 +303,8 @@
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/025 ./src/025
     ```
-  
+
+  - [ ] Helpful note about Function Parameters: Declare as Objects!
 
 ----
 
