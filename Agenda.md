@@ -304,8 +304,6 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/025 ./src/025
     ```
 
-  - [ ] Helpful note about Function Parameters: Declare as Objects!
-
 ----
 
 ### Nov 4
@@ -317,6 +315,8 @@
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/026 ./src/026
     ```
 -->  
+
+  - [ ] Helpful note about Function Parameters: Declare as Objects!
 
 ### Nov 6 *(Online)*
 
@@ -333,7 +333,7 @@
 
 ### Nov 11
 
-- [ ] **Lab Time** for Assignment 2
+- ***No Classes***
 
 ### Nov 13 *(Online)*
 
