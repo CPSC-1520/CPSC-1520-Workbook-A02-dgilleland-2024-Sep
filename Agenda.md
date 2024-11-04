@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#oct-28).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-4).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -310,11 +310,10 @@
 
 - [ ] Today's Lesson
   - [ ] JavaScript Classes
-<!--
+
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/026 ./src/026
     ```
--->  
 
   - [ ] Helpful note about Function Parameters: Declare as Objects!
 
