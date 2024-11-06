@@ -21,8 +21,25 @@ const Rectangle = class {
         return Rectangle.#count;
     }
 
+    /**
+     * Outputs the time at which this rectangle was created.
+     */
     report() {
         console.log(`This box was made on ${this.#created.toLocaleTimeString()}`);
+    }
+
+    /**
+     * Calculates the area of the rectangle
+     */
+    get area() {
+        return this.width * this.height;
+    }
+
+    /**
+     * Calculates the permiter of the rectangle
+     */
+    get perimeter() {
+        return (this.width + this.height) * 2;
     }
 }
 
