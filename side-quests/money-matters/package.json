@@ -1,0 +1,17 @@
+{
+  "name": "money-matters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  }
+}
