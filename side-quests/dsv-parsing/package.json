@@ -1,0 +1,20 @@
+{
+  "name": "dsv-parsing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "@stdlib/utils": "^0.3.3",
+    "@stdlib/utils-dsv": "^0.2.2",
+    "@stdlib/utils-dsv-base-parse": "^0.2.2"
+  }
+}
