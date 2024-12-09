@@ -406,6 +406,7 @@ Here's how you can set it up in the same folder:
     "source": "index.html",
     "scripts": {
       "start": "parcel",
+      "build": "parcel build",
       "server": "json-server --watch albums_app_db.json --port 5000"
     },
   ```
