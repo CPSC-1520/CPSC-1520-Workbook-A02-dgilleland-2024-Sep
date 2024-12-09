@@ -399,10 +399,9 @@ Here's how you can set it up in the same folder:
 
 1. Install Parcel: `npm i parcel -D` (or use `pnpm`)
 2. Install Bootstrap: `npm i bootstrap` (or use `pnpm`)
-3. Modify the `package.json` to include a `"source": "index.html",` and within the `"scripts"`, a `"start": "parcel",`
+3. Modify the `package.json` to include a `"source": "index.html",` and within the `"scripts"`, a `"start": "parcel",`. Also, make sure you've ***removed*** the line `"main": "index.js",`
 
   ```json
-    "main": "index.js",
     "source": "index.html",
     "scripts": {
       "start": "parcel",
