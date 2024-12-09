@@ -391,6 +391,34 @@
 
 - [ ] **Lab Time** for Assignment 3
 
+#### Instructor Bonus
+
+*Regarding Assignment 3, I have included the backend files as part of the repository. You can move them to a separate folder (if you wish), but it should work fine to include them in the same directory as the website running Parcel.*
+
+Here's how you can set it up in the same folder:
+
+1. Install Parcel: `npm i parcel -D` (or use `pnpm`)
+2. Install Bootstrap: `npm i bootstrap` (or use `pnpm`)
+3. Modify the `package.json` to include a `"source": "index.html",` and within the `"scripts"`, a `"start": "parcel",`
+
+  ```json
+    "main": "index.js",
+    "source": "index.html",
+    "scripts": {
+      "start": "parcel",
+      "server": "json-server --watch albums_app_db.json --port 5000"
+    },
+  ```
+
+3. You can run both Parcel and the backend server in separate terminals.
+  1. `npm run start` for Parcel
+  2. `npm run server` for the Backend
+
+##### POSTing to the Backend
+
+Refer to the MDN documentation on performing a [POST using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#making_post_requests).
+
+
 ### Dec 11 *(Online)*
 
 > ***Q-and-A*** - Your opportunity to ask questions on items covered to-date *(esp. useful for the upcoming lab 8)*
