@@ -428,6 +428,7 @@ Refer to the MDN documentation on performing a [POST using the Fetch API](https:
 ### Dec 12
 
 - [ ] In-Class Lab 8 - Classes, Objects, DOM and Timers <!-- Race Cars -->
+  - ![Notes](./docs/images/In-Class-Lab-8.png)
 - [ ] **Lab Time**
 
 ----
