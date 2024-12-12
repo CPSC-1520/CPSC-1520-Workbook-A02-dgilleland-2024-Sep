@@ -428,6 +428,7 @@ Refer to the MDN documentation on performing a [POST using the Fetch API](https:
 ### Dec 12
 
 - [ ] In-Class Lab 8 - Classes, Objects, DOM and Timers <!-- Race Cars -->
+  - **Note:** There are no automated tests for this lab. I'll be performing manual tests of your lab submission.
   - ![Notes](./docs/images/In-Class-Lab-8.png)
 - [ ] **Lab Time**
 
@@ -552,7 +553,6 @@ Refer to the MDN documentation on performing a [POST using the Fetch API](https:
 pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-dgilleland/src/019 ./src/019
 ```
 
--->
 
 ### Mar 6
 
@@ -705,3 +705,4 @@ pnpm dlx tiged --disable-cache --force CPSC-1520/cpsc-1520-workbook-jan2024-a03-
 
 ### Future
 
+-->
