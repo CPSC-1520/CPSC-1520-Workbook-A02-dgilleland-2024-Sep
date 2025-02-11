@@ -39,7 +39,7 @@ Logical Operators do a comparison between boolean values for `&&` and `||` opera
 
 -   **`&&`** — "AND" operator - both sides must be true to get a true result
 -   **`||`** — "OR" operator - only one side needs to be true to get a true result
--   **`!`** &mdash: "NOT" operator - inverts the true to a false and the false to a true
+-   **`!`** &mdash; "NOT" operator - inverts the true to a false and the false to a true
 
 ----
 
