@@ -410,7 +410,7 @@ Here's how you can set it up in the same folder:
     },
   ```
 
-3. You can run both Parcel and the backend server in separate terminals.
+4. You can run both Parcel and the backend server in separate terminals.
   1. `npm run start` for Parcel
   2. `npm run server` for the Backend
 
